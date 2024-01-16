@@ -1,0 +1,6 @@
+(executable
+ (public_name effect_based_interpreter)
+ (name main)
+ (libraries effect_based_interpreter)
+ (preprocess
+  (pps ppx_jane)))

@@ -1,0 +1,10 @@
+(library
+ (libraries core)
+ (preprocess
+  (pps ppx_jane))
+ (name effect_based_interpreter))
+
+(env
+ (dev
+  (flags
+   (:standard -w -30))))
